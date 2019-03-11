@@ -1,0 +1,32 @@
+li{
+    color:#28b485;
+    border:1px solid #55c57a;
+    margin:1rem auto;
+    width:40rem;
+    padding:1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    box-shadow: 0 .2rem .3rem rgba(0,0,0,.2);
+    transition: all .2s;
+    animation: moveInRight 1s ease-out;
+    cursor: pointer;
+    background-color: #55c57a;
+    color:#fff;
+  }
+  
+  li:hover{
+    transform: translateY(-3px)
+  }
+  @media(max-width:60rem){
+    body{
+      font-size: .8rem;
+    }
+    label{
+      font-size: 1.2rem;
+    }
+    li{
+    width:30rem;
+    }
+  }

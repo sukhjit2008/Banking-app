@@ -1,0 +1,9 @@
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    backface-visibility: hidden;
+  }
+  a{
+    text-decoration: none;
+  }

@@ -1,0 +1,35 @@
+.branch-detail{
+    color:#28b485;
+    border:1px solid #55c57a;;
+    width:40rem;
+    margin:1rem auto;
+    padding:3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    box-shadow: 0 .2rem .3rem rgba(0,0,0,.2);
+    transition: all .2s;
+    animation: moveInRight 1s ease-out;
+    cursor: pointer;
+    background-color: #55c57a;
+    color:#fff;
+    transition: all .2s;
+    margin-top:25rem;
+  }
+  .branch-detail:hover{
+    transform: translateY(-3px)
+  }
+  
+  @media(max-width:60rem){
+    body{
+      font-size: .8rem;
+    }
+    label{
+      font-size: 1.2rem;
+    }
+    .branch-detail{
+    width:30rem;
+    }
+  }
+  
